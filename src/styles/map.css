@@ -1,0 +1,20 @@
+.map-container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.places-container {
+  position: absolute;
+  top: 20px;
+  z-index: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 500px;
+}
+
+.combobox-input {
+  padding: 10px;
+  border-radius: 20px;
+  width: 100%;
+}
